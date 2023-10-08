@@ -1,0 +1,41 @@
+.steps-page {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.steps-header {
+  font-size: 40px;
+}
+
+.steps-header1 {
+  font-size: 30px;
+}
+
+.step {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.step-image {
+  flex: 3;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.step-content {
+  flex: 2;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.cont {
+  text-align: left;
+}

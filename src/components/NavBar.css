@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: #333; */
+  padding: 10px 20px;
+}
+
+.logo img {
+  width: 200px;
+  height: 50px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-button {
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0px 25px;
+  height: 40px;
+  line-height: normal;
+  color: rgb(41, 42, 43);
+  background-color: rgb(245, 247, 250);
+  border: 1px solid rgba(1, 83, 130, 0.2);
+}
+
+.signup-button {
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 16px;
+  padding: 0px 25px;
+  height: 40px;
+  line-height: 40px;
+  color: rgb(41, 42, 43);
+  background: rgb(255, 234, 0);
+}
