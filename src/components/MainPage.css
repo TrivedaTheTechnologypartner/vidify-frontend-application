@@ -22,7 +22,7 @@ p {
   margin-bottom: 20px;
 }
 
-button {
+.create-video-button {
   display: block;
   text-align: left;
   font-weight: 700;
@@ -40,4 +40,63 @@ button {
 .video-container {
   flex: 3;
   padding: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.dropdown button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color: #a78bfa;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-icon {
+  margin-left: 10px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.upload-text-popup,
+.upload-video-link-popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.generate-button {
+  color: rgb(41, 42, 43);
+  background: rgb(255, 234, 0);
 }

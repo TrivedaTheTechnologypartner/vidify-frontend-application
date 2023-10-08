@@ -4,16 +4,14 @@ import "./StepsPage.css";
 function StepsPage() {
   return (
     <div className="steps-page">
-      <h2 className="steps-header">
-        How to turn text into video with MediaGen:
-      </h2>
+      <h2 className="steps-header">How to turn text into video with Vidify:</h2>
       <h2 className="steps-header1">Step-by-step guide</h2>
       <div className="step">
         <div className="step-content">
           <h2 className="cont">Step 1</h2>
           <h3 className="cont">Open the converter</h3>
           <p className="cont">
-            First, open MediaGen, go to the My Projects page and click on the
+            First, open Vidify, go to the My Projects page and click on the
             button "+ New Video" on the right-hand side of the screen. Then,
             pick the suitable option from the drop-down menu.
           </p>
